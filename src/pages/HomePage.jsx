@@ -1,11 +1,13 @@
 import React from "react";
 import {
   Booking,
-  HeroSection,
   Navbar,
   Pricing,
   Testimonials,
-  VacationSection,
+  Schedules,
+  Footer,
+  About,
+  Membership,
 } from "../components";
 
 const HomePage = () => {
@@ -13,10 +15,12 @@ const HomePage = () => {
     <div>
       {/* navbar */}
       <Navbar />
-      {/* Hero section */}
-      <HeroSection />
-      {/* vacation  section */}
-      <VacationSection />
+      {/* Abut section */}
+      <About />
+      {/* schedules  section */}
+      <Schedules />
+      {/* membershp  section */}
+      <Membership />
       {/*Pricing */}
       <Pricing />
       {/* Booking */}
@@ -24,6 +28,7 @@ const HomePage = () => {
       {/* testmonias */}
       <Testimonials />
       {/* footer */}
+      <Footer />
     </div>
   );
 };

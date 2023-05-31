@@ -1,7 +1,7 @@
 import Navbar from "./Navbar";
-import VacationSection from "./VacationSection";
-import HeroSection from "./HeroSection";
-import Destination from "./Destination";
+import Schedules from "./Schedules";
+import About from "./About";
+import Membership from "./Membership";
 import Pricing from "./Pricing";
 import Booking from "./Booking";
 import Testimonials from "./Testimonials";
@@ -9,9 +9,9 @@ import Footer from "./Footer";
 
 export {
   Navbar,
-  VacationSection,
-  HeroSection,
-  Destination,
+  Schedules,
+  About,
+  Membership,
   Pricing,
   Booking,
   Testimonials,
