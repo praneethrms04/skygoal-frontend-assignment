@@ -1,10 +1,10 @@
 import React from "react";
 import {
-  Schedules,
+  // Schedules,
   // Booking,
-  Navbar,
+  // Navbar,
   // Pricing,
-  // Testimonials,
+  Testimonials,
   // Footer,
   // About,
   // Membership,
@@ -13,16 +13,15 @@ import {
 const HomePage = () => {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       {/* navbar 
        <Navbar />
       <About />
       {/* schedules  section */}
-      <Schedules />
-      {/* membershp  
-      <Membership />
-      <Pricing />
-      <Booking />
+      {/* <Schedules /> */}
+      {/* <Membership /> */}
+      {/* <Pricing /> */}
+      {/* <Booking /> */}
       <Testimonials />
       {/* footer 
       <Footer />

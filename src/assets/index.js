@@ -7,7 +7,14 @@ import ellipse50 from "./ellipse50.svg";
 
 import cardimg1 from "./cardimg1.png";
 import cardimg2 from "./cardimg2.png";
-import cardimg3 from "./cardimg3.png";
+import cardimg3 from "./cardimg3.png";  
+
+// testimonial pics 
+
+import testimg1 from "./testimg1.png"
+import testimg2 from "./testimg2.png"
+import testimg3 from "./testimg3.png"
+
 
 export {
   ellipse46,
@@ -17,4 +24,7 @@ export {
   cardimg1,
   cardimg2,
   cardimg3,
+  testimg1,
+  testimg2,
+  testimg3
 };

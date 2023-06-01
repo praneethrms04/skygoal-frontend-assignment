@@ -7,7 +7,7 @@ const Schedules = () => {
     <>
       <div className="lg:p-28 my-3 ">
         <div className="flex lg:flex-row flex-col-reverse gap-20 overflow-hidden">
-          <ul className="flex-wrap mb-24">
+          <ul className="flex-wrap mb-0">
             {cardsData.map((card) => (
               <li
                 className="xl:p-3 mx-10 w-[300px]   lg:h-[120px] lg:w-[340px] shadow-lg rounded-3xl mb-10"
