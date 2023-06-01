@@ -4,8 +4,8 @@ import {
   // Booking,
   // Navbar,
   // Pricing,
-  Testimonials,
-  // Footer,
+  // Testimonials,
+  Footer,
   // About,
   // Membership,
 } from "../components";
@@ -22,10 +22,8 @@ const HomePage = () => {
       {/* <Membership /> */}
       {/* <Pricing /> */}
       {/* <Booking /> */}
-      <Testimonials />
-      {/* footer 
+      {/* <Testimonials /> */}
       <Footer />
-    */}
     </div>
   );
 };

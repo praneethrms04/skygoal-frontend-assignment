@@ -87,3 +87,46 @@ export const testimonials = [
       "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
   },
 ];
+
+
+export const footer = [
+  {
+    id: 1,
+    name: "About",
+  },
+  {
+    id: 2,
+    name: "Schedules",
+  },
+  {
+    id: 3,
+    name: "Pricing",
+  },
+  {
+    id: 4,
+    name: "membership",
+  },
+  {
+    id: 5,
+    name: "Joins",
+  },
+];
+
+export const footersecurity = [
+  {
+    id: 1,
+    name: "Privacy Policy",
+  },
+  {
+    id: 2,
+    name: "Terms of Use",
+  },
+  {
+    id: 3,
+    name: "Sales and Refunds",
+  },
+  {
+    id: 4,
+    name: "Legal",
+  },
+];
