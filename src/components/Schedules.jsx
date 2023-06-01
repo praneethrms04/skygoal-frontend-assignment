@@ -6,7 +6,7 @@ const Schedules = () => {
   return (
     <>
       <div className="lg:p-28 my-3 ">
-        <div className="flex lg:flex-row flex-col-reverse gap-20 overflow-hidden">
+        <div className="flex lg:flex-row flex-col gap-20 overflow-hidden">
           <ul className="flex-wrap mb-0">
             {cardsData.map((card) => (
               <li
@@ -15,7 +15,7 @@ const Schedules = () => {
               >
                 <div className="flex items-center pt-2">
                   <img
-                    class="h-25 w-25 object-cover rounded-full  pt-2"
+                    className="h-25 w-25 object-cover rounded-full  pt-2"
                     src={card.image}
                     alt={card.name}
                   />

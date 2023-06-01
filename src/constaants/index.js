@@ -88,7 +88,6 @@ export const testimonials = [
   },
 ];
 
-
 export const footer = [
   {
     id: 1,
@@ -128,5 +127,32 @@ export const footersecurity = [
   {
     id: 4,
     name: "Legal",
+  },
+];
+
+export const membershipdata = [
+  {
+    id: 1,
+    universityname : "Harvard University",
+    universityplace: "Cambridge, UK",
+    universitypic: assets.harvard,
+  },
+  {
+    id: 2,
+    universityname : "Oxford University",
+    universityplace: "Oxford, England",
+    universitypic: assets.oxford,
+  },
+  {
+    id: 3,
+    universityname : "Stanford University",
+    universityplace: "Stanford, Callifornia",
+    universitypic: assets.stanford,
+  },
+  {
+    id: 4,
+    universityname : "Nanyang University",
+    universityplace: "Nanyang Ave, Singapur",
+    universitypic: assets.nanyang,
   },
 ];

@@ -5,25 +5,23 @@ import {
   // Navbar,
   // Pricing,
   // Testimonials,
-  Footer,
+  // Footer,
   // About,
-  // Membership,
+  Membership,
 } from "../components";
 
 const HomePage = () => {
   return (
     <div>
       {/* <Navbar /> */}
-      {/* navbar 
-       <Navbar />
-      <About />
-      {/* schedules  section */}
+
+      {/* <About /> */}
       {/* <Schedules /> */}
-      {/* <Membership /> */}
+      <Membership />
       {/* <Pricing /> */}
       {/* <Booking /> */}
       {/* <Testimonials /> */}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
