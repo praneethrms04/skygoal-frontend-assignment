@@ -1,12 +1,28 @@
 import React from "react";
-import "./App.css";
-import HomePage from "./pages/HomePage";
 import { BrowserRouter } from "react-router-dom";
+import {
+  Navbar,
+  About,
+  Schedules,
+  Membership,
+  Pricing,
+  Booking,
+  Testimonials,
+  Footer,
+} from "./components";
+import "./App.css";
 
 const App = () => {
   return (
     <BrowserRouter>
-        <HomePage />
+      <Navbar />
+      <About />
+      <Schedules />
+      <Membership />
+      <Pricing />
+      <Booking />
+      <Testimonials />
+      <Footer />
     </BrowserRouter>
   );
 };

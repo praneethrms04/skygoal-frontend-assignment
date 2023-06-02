@@ -10,11 +10,16 @@ import right from "./right.png"
 import plus from "./plus.png"
 import minus from "./minus.png"
 import maskgroup from "./mask-group-lady.png"
+import profile from "./profile.png"
 
 import harvard from "./harvard.png";
 import oxford from "./oxford.png";
 import stanford from "./stanford.png"
 import nanyang from "./nanyang.png"
+
+import pricing from "./pricing.svg"
+import semicircle from "./semi-circle.png"
+import girlpic from "./girlpic.png"
 
 // card pics
 
@@ -49,5 +54,9 @@ export {
   right,
   maskgroup,
   plus,
-  minus
+  minus,
+  pricing,
+  profile,
+  semicircle,
+  girlpic
 };

@@ -3,7 +3,7 @@ import * as assets from "../assets";
 
 const Booking = () => {
   return (
-    <section className="flex py-10 md:flex-row flex-col items-center">
+    <section className="flex lg:py-10 md:flex-row flex-col items-center">
       <div className="flex-1 flex items-center justify-center ">
         <div className="lg:mb-28">
           <img
