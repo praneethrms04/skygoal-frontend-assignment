@@ -7,6 +7,9 @@ import star from "./star.png";
 import icons from "./icons.png";
 import left from "./left.png"
 import right from "./right.png"
+import plus from "./plus.png"
+import minus from "./minus.png"
+import maskgroup from "./mask-group-lady.png"
 
 import harvard from "./harvard.png";
 import oxford from "./oxford.png";
@@ -43,5 +46,8 @@ export {
   nanyang,
   stanford,
   left,
-  right
+  right,
+  maskgroup,
+  plus,
+  minus
 };
