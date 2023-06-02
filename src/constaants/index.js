@@ -2,10 +2,6 @@ import * as assets from "../assets";
 
 export const navLinks = [
   {
-    id: "home",
-    title: "Home",
-  },
-  {
     id: "about",
     title: "About",
   },
@@ -133,25 +129,25 @@ export const footersecurity = [
 export const membershipdata = [
   {
     id: 1,
-    universityname : "Harvard University",
+    universityname: "Harvard University",
     universityplace: "Cambridge, UK",
     universitypic: assets.harvard,
   },
   {
     id: 2,
-    universityname : "Oxford University",
+    universityname: "Oxford University",
     universityplace: "Oxford, England",
     universitypic: assets.oxford,
   },
   {
     id: 3,
-    universityname : "Stanford University",
+    universityname: "Stanford University",
     universityplace: "Stanford, Callifornia",
     universitypic: assets.stanford,
   },
   {
     id: 4,
-    universityname : "Nanyang University",
+    universityname: "Nanyang University",
     universityplace: "Nanyang Ave, Singapur",
     universitypic: assets.nanyang,
   },
