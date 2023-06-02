@@ -60,7 +60,7 @@ const Booking = () => {
                   <img src={assets.plus} alt="" className="cursor-pointer" />
                   <input
                     type="text"
-                    value="1"
+                    placeholder="1"
                     className="w-14 bg-[#F8F6F4] border-none outline-none py-3 px-4"
                   />
                   <img src={assets.minus} alt="" className="cursor-pointer" />
@@ -74,7 +74,7 @@ const Booking = () => {
                   <img src={assets.plus} alt="" className="cursor-pointer" />
                   <input
                     type="text"
-                    value="4"
+                    placeholder="4"
                     className="w-12 bg-[#F8F6F4] py-4 px-4"
                   />
                   <img src={assets.minus} alt="" className="cursor-pointer" />

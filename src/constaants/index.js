@@ -73,14 +73,14 @@ export const testimonials = [
       "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
   },
   {
-    id: 1,
+    id: 2,
     imgsrc: assets.testimg2,
     name: "Jakob Aminoff",
     message:
       "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
   },
   {
-    id: 1,
+    id: 3,
     imgsrc: assets.testimg3,
     name: "Carla Press",
     message:

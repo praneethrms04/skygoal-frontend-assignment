@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
-import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
 import { navLinks } from "../constaants";
 
-const Navbar = () => {
+import * as assets from "../assets";
 
+const Navbar = () => {
   const [active, setActive] = useState("");
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -34,24 +35,26 @@ const Navbar = () => {
           <p className="w-7 h-7 text-[#F27A44]">Edutech</p>
         </Link>
 
-        {/* Menu icon */}
         <div
           onClick={() => setOpen(!open)}
           className="absolute right-8 top-6 cursor-pointer md:hidden w-7 h-7"
         >
-          {open ? "Open" : "Close"}
+          {open ? (
+            <img src={assets.menu} alt="" className="bg-[#000]" />
+          ) : (
+            <img src={assets.menu} alt="" className="bg-[#000]" />
+          )}
         </div>
-        {/* linke items */}
         <ul
           className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white  md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
-            open ? "top-12" : "top-[-490px]"
+            open ? "top-12 bg-[#000]" : "top-[-490px] bg-[#000]"
           }`}
         >
           {navLinks.map((nav) => (
             <li
               className={`${
                 active === nav.title ? "text-[#fff]" : "text-[#fff]"
-              }md:ml-8 md:my-0 my-7 font-normal 
+              }md:ml-8 md:my-0 my-7 font-normal
              `}
               key={nav.id}
               onClick={() => setActive(nav.title)}

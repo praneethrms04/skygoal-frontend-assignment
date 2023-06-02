@@ -5,21 +5,23 @@ import ellipse50 from "./ellipse50.svg";
 
 import star from "./star.png";
 import icons from "./icons.png";
-import left from "./left.png"
-import right from "./right.png"
-import plus from "./plus.png"
-import minus from "./minus.png"
-import maskgroup from "./mask-group-lady.png"
-import profile from "./profile.png"
+import left from "./left.png";
+import right from "./right.png";
+import plus from "./plus.png";
+import minus from "./minus.png";
+import maskgroup from "./mask-group-lady.png";
+import profile from "./profile.png";
 
 import harvard from "./harvard.png";
 import oxford from "./oxford.png";
-import stanford from "./stanford.png"
-import nanyang from "./nanyang.png"
+import stanford from "./stanford.png";
+import nanyang from "./nanyang.png";
+import close from "./close.svg";
+import menu from "./menu.svg";
 
-import pricing from "./pricing.svg"
-import semicircle from "./semi-circle.png"
-import girlpic from "./girlpic.png"
+import pricing from "./pricing.svg";
+import semicircle from "./semi-circle.png";
+import girlpic from "./girlpic.png";
 
 // card pics
 
@@ -58,5 +60,7 @@ export {
   pricing,
   profile,
   semicircle,
-  girlpic
+  girlpic,
+  close,
+  menu,
 };

@@ -15,8 +15,8 @@ const Footer = () => {
       </div>
       <div className="flex py-10">
         <nav className="flex flex-wrap justify-center">
-          {footersecurity.map((item) => (
-            <div className="px-5 py-2">
+          {footersecurity.map((item, ind) => (
+            <div className="px-5 py-2" key={item.id}>
               <a
                 href="/"
                 className="text-base leading-6 text-gray-500 hover:text-gray-900"
@@ -29,10 +29,10 @@ const Footer = () => {
 
         <nav className="flex flex-wrap justify-center">
           {footer.map((item) => (
-            <div class="px-5 py-2">
+            <div className="px-5 py-2" key={item.id}>
               <a
                 href="/"
-                class="text-base leading-6 text-black font-semibold hover:text-gray-900"
+                className="text-base leading-6 text-black font-semibold hover:text-gray-900"
               >
                 {item.name}
               </a>
