@@ -1,8 +1,3 @@
-import ellipse46 from "./ellipse46.svg";
-import ellipse48 from "./ellipse48.svg";
-import ellipse49 from "./ellipse49.svg";
-import ellipse50 from "./ellipse50.svg";
-
 import star from "./star.png";
 import icons from "./icons.png";
 import left from "./left.png";
@@ -16,6 +11,7 @@ import harvard from "./harvard.png";
 import oxford from "./oxford.png";
 import stanford from "./stanford.png";
 import nanyang from "./nanyang.png";
+
 import close from "./close.svg";
 import menu from "./menu.svg";
 
@@ -36,10 +32,6 @@ import testimg2 from "./testimg2.png";
 import testimg3 from "./testimg3.png";
 
 export {
-  ellipse46,
-  ellipse48,
-  ellipse49,
-  ellipse50,
   cardimg1,
   cardimg2,
   cardimg3,

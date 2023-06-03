@@ -38,7 +38,7 @@ const Pricing = () => {
             </li>
           ))}
         </ul>
-        <button className="btn bg-[#F27A44]  lg:w-[200px] text-white font-semibold p-2 lg:mt-8 mt-4 rounded-2xl md:static">
+        <button className="btn bg-[#F27A44]  hover:text-indigo-900 hover:bg-orange-200   lg:w-[200px] text-white font-semibold p-2 lg:mt-8 mt-4 rounded-2xl md:static">
           Explore More
         </button>
       </div>

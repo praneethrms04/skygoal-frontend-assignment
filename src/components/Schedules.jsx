@@ -10,7 +10,7 @@ const Schedules = () => {
           <ul className="flex-wrap mb-0">
             {cardsData.map((card) => (
               <li
-                className="xl:p-3 mx-10 w-[300px]   lg:h-[120px] lg:w-[340px] shadow-lg rounded-3xl mb-10"
+                className="xl:p-3 mx-10 w-[300px]   lg:h-[120px] lg:w-[340px] shadow-2xl rounded-3xl mb-10"
                 key={card.id}
               >
                 <div className="flex items-center pt-2">
@@ -47,7 +47,7 @@ const Schedules = () => {
                 </li>
               ))}
             </ul>
-            <button className="btn bg-[#F27A44]  lg:w-[200px] text-white font-semibold p-2 lg:mt-8 mt-4 rounded-2xl md:static">
+            <button className="btn bg-[#F27A44] hover:text-indigo-900 hover:bg-orange-200 lg:w-[200px] text-white font-semibold p-2 lg:mt-8 mt-4 rounded-2xl md:static">
               Explore More
             </button>
           </div>

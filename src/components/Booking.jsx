@@ -83,7 +83,7 @@ const Booking = () => {
             </div>
             <button
               type="submit"
-              className="bg-[#000]  py-2 px-4 rounded outline-none w-fit text-white font-bold shadow-md mt-7"
+              className="bg-black hover:text-slate-700 hover:bg-[#F8F6F4] py-2 px-4 rounded outline-none w-fit text-white font-bold shadow-md mt-7"
             >
               BOOK NOW
             </button>

@@ -8,16 +8,16 @@ const About = () => {
         <p className="font-center font-semibold md:text-xl md:text-md leading-6 text-gray-800">
           Discover the beauty of tropics
         </p>
-        <div className="md:flex-col flex flex-row md:gap-0 gap-3  md:text-[70px] md:pt-4 ">
-          <p className="font-bold">Tropical</p>
-          <p className="font-bold ">Destinations</p>
+        <div className="md:flex-col flex flex-row md:gap-0 md:text-[70px] md:pt-4 ">
+          <p className="font-bold">Tropical &nbsp;</p>
+          <p className="font-bold ">Destinations &nbsp;</p>
           <p className="font-normal">For Student</p>
         </div>
         <div className="font-normal leading-5 text-gray-700 md:w-[550px] text-sm  md:pt-8">
           Lorem ipsum dolor sit amet consectetur. Sit mattis donec mi bibendum
           integer rutrum nisi. A nec nisl vitae
         </div>
-        <button className="btn bg-[#F27A44]  text-white  font-semibold px-3 py-1 w-36 h-12 rounded-3xl mt-8">
+        <button className="btn bg-[#F27A44]  text-white  hover:text-indigo-900 hover:bg-orange-300 font-semibold px-3 py-1 w-36 h-12 rounded-3xl mt-8">
           Sign Up
         </button>
       </div>

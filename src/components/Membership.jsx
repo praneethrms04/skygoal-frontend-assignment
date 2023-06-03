@@ -13,7 +13,7 @@ const Membership = () => {
           <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-4">
             {membershipdata.map((item) => (
               <article
-                className="flex flex-col  shadow-lg rounded-2xl"
+                className="flex flex-col  shadow-2xl rounded-2xl"
                 key={item.id}
               >
                 <div className="relative">
@@ -23,13 +23,13 @@ const Membership = () => {
                     src={item.universitypic}
                   />
                   <div className="absolute bottom-5 left-5">
-                    <div className="bg-white text-black py-2 px-5 rounded-2xl w-20 text-center max-h-9 text-sm flex gap-2">
+                    <div className="bg-white text-black py-2 px-5 rounded-2xl w-20 text-center max-h-9 text-sm flex gap-2 font-medium  hover:text-white hover:bg-[#000]">
                       <img src={assets.star} alt="" />
                       <p>4.8</p>
                     </div>
                   </div>
                   <div className="absolute bottom-5 right-5">
-                    <div className="bg-black text-white text-sm py-2 px-5 rounded-2xl h-9">
+                    <div className="bg-black text-white text-sm py-2 px-5 rounded-2xl h-9 hover:font-medium  hover:text-black hover:bg-[#F8F6F4]">
                       EXCLUSIVE
                     </div>
                   </div>
